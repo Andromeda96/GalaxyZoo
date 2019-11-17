@@ -1,6 +1,6 @@
 ## Galaxy image classification using boosting decision trees
 
-![Image result for galaxy classification](file:////Users/haoyuwei/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image002.jpg)
+![Image result for galaxy classification](https://github.com/whywww/GalaxyZoo/blob/master/Fig1.png)
 
 _Figure 1 HUBBER'S CLASSIFICATION SYSTEM_
 
@@ -12,7 +12,7 @@ Galaxies are made up of millions of stars like the Sun. Different initial condit
 
 Galaxy Zoo 2 dataset [1] consists of 61578 training and 79975 testing JPG images of galaxies adapted from SDSS, which is originally of FITS format. Each image is labeled by volunteers on 11 decision tree (GZ2) questions with different choice responses, see Figure 2. The response results are presented in the form of possibilities for each choice. The galaxies can then be classified by setting a certain threshold for the debiased likelihoods of the responses.  
 
-![DecisionTreeImage](file:////Users/haoyuwei/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image004.png)
+![DecisionTreeImage](https://github.com/whywww/GalaxyZoo/blob/master/Fig2.png)
 
 _Figure 2 Flowchart of classification tasks for GZ2, beginning at the top center. Tasks are color-coded by their relative depths in the decision tree._
 
@@ -42,7 +42,7 @@ General idea: Boosting presumes users have a base or weak learning algorithm, gi
 
 Using Adaboost: AdaBoost classifier builds a strong classifier by combining multiple poorly performing classifiers so that you will get high accuracy strong classifier. The basic concept behind Adaboost is to set the weights of classifiers and training the data sample in each iteration such that it ensures the accurate predictions of unusual observations. The classifier should be trained interactively on various weighed training examples. In each iteration, it tries to provide an excellent fit for these examples by minimizing training error.
 
-![img](file:////Users/haoyuwei/Library/Group%20Containers/UBF8T346G9.Office/TemporaryItems/msohtmlclip/clip_image005.png)
+![img](https://github.com/whywww/GalaxyZoo/blob/master/Fig3.png)
 
 _Figure 3 Sturcture of Algorithm, individual classifier vote and final prediction label returned that performs majority voting._
 
